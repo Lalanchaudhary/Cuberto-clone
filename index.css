@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "matter";
+}
+body
+{
+    height: 100%;
+    width: 100%;
+}
+.navbar
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2
+{
+    margin-left: 120px;
+}
+
+.menu
+{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+
+}
+
+.menu span
+{
+    font-size: 22px;
+    font-family: "matter"
+}
+.menu i
+{
+    font-size:25px;
+    margin-top: 8px;
+}
+
+.hero-sec
+{
+    height: 80vh;
+    width: 100%;
+}
+.text
+{
+    display: inline;
+    font-size: 133px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+.first-line
+{
+    margin: 30px 0 0 100px;
+}
+.second-line
+{
+    height: 130px;
+    margin-left: 130px;
+    align-items: center;
+}
+.third-line
+{
+    margin: -20px 0 0 100px;
+}
+.text1
+{
+    font-style: italic;
+    font-weight:lighter;
+}
+.first-video
+{
+    height: 122px;
+    width: 178px;
+    border-radius: 40%;
+    object-fit: cover;
+}
+
+.full-video
+{
+    /* height: 100vh; */
+    width: 100%;
+}
+.mid
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#leftv
+{
+    height: 500px;
+    width: 500px;
+    margin: 150px;
+}
+.right p
+{
+    height: 142px;
+    width: 555px;
+    font-size: 33px;
+    margin-top: 200px;
+}
+
+.btn
+{
+    height: 210px;
+    width: 470px;
+    border: 1px solid;
+    font-size:25px;
+    background-color: white;
+    border-radius:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    transition: 2s;
+}
+.btn2
+{
+    height: 210px;
+    width: 470px;
+    border: 1px solid;
+    font-size:25px;
+    background-color: white;
+    /* border-radius:100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 80px; */
+    transition: 2s;
+    display: none;
+}
+
+/* .right button:hover
+{
+    background-color: black;
+    color: white;
+} */
