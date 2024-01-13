@@ -9,6 +9,7 @@ body
     height: 100%;
     width: 100%;
     position: relative;
+    scroll-behavior: smooth;
 }
 .ball
 {
@@ -20,6 +21,15 @@ body
     top:0px;
     left:0px;
     transition:0.09s;
+}
+.ball2
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:30px;
+    left: 1330;
 }
 .navbar
 {
@@ -39,10 +49,11 @@ body
 {
     display: flex;
     height: 60px;
-    width: 100px;
-    justify-content: space-between;
+    width: 120px;
+    justify-content: space-around;
     align-items: center;
     margin-right: 100px;
+    /* border: 1px solid; */
 
 }
 
@@ -51,12 +62,21 @@ body
     font-size: 22px;
     font-family: "matter"
 }
-.menu i
+.icon1
 {
     font-size:25px;
     margin-top: 8px;
+    padding: 10px;
+    position: fixed;
+    top:25px;
+    right: 70px;
+    /* border: 1px solid; */
 }
-
+.icon2
+{
+    color: white;
+    z-index: 2;
+}
 .hero-sec
 {
     height: 80vh;
@@ -152,8 +172,33 @@ body
     display: none;
 }
 
-/* .right button:hover
+.elements-div
 {
+    height:min-content;
+    width: 100%;
     background-color: black;
+    border-top-right-radius:100px;
+    border-top-left-radius:100px;
+}
+.f1-elem
+{
+    height: 640px;
+    width: 480px;
+    border-radius:40px ;
+    margin: 200px 0 0 200px;
+}
+.f2-elem
+{
+    height:640px;
+    width: 480px;
+    margin: -200px 0 0 700px;
+    /* border-radius: 40px; */
+}
+
+.first-p
+{
+    font-size: 28px;
+    /* font-weight: bold; */
     color: white;
-} */
+    margin: 20px 0 0 200px;
+}
