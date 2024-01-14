@@ -174,7 +174,7 @@ body
 
 .elements-div
 {
-    height:min-content;
+    height:max-content;
     width: 100%;
     background-color: black;
     border-top-right-radius:100px;
@@ -189,10 +189,11 @@ body
 }
 .f2-elem
 {
-    height:640px;
+    height:480px;
     width: 480px;
     margin: -200px 0 0 700px;
-    /* border-radius: 40px; */
+    border-radius:40px;
+    object-fit: cover;
 }
 
 .first-p
@@ -201,4 +202,19 @@ body
     /* font-weight: bold; */
     color: white;
     margin: 20px 0 0 200px;
+}
+.second-p
+{
+    font-size: 28px;
+    /* font-weight: bold; */
+    color: white;
+    margin: 20px 0 0 760px;
+}
+
+.f3-elem
+{
+    height: 640px;
+    width: 480px;
+    border-radius:40px ;
+    margin: 0px 0 0 200px;
 }
