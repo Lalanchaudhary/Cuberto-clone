@@ -21,6 +21,7 @@ body
     top:0px;
     left:0px;
     transition:0.09s;
+    /* z-index: 3; */
 }
 .ball2
 {
@@ -75,7 +76,7 @@ body
 .icon2
 {
     color: white;
-    z-index: 2;
+    z-index: 3;
 }
 .hero-sec
 {
@@ -208,13 +209,118 @@ body
     font-size: 28px;
     /* font-weight: bold; */
     color: white;
-    margin: 20px 0 0 760px;
+    margin: 20px 0 0 700px;
 }
 
 .f3-elem
 {
-    height: 640px;
+    height:640px;
     width: 480px;
     border-radius:40px ;
     margin: 0px 0 0 200px;
+}
+.side-bar
+{
+    height: 100vh;
+    width:0px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    overflow: hidden;
+    transition: 0.9s;
+}
+.side-bar2
+{
+    width:40%;
+}
+.upper-icon
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+
+.side-icon 
+{
+    font-size: 30px;
+    /* font-weight:200; */
+    margin: 30px;
+    transition: 0.5s;
+}
+.side-icon2
+{
+  transform: rotateX('0.5turn');
+}
+
+.inner-side
+{
+    height:85vh;
+    width: 100%;
+    display: flex;
+}
+.left-side
+{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-side p
+{
+  color: rgb(137, 136, 136);
+}
+
+.right-side
+{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-; */
+    align-items: start;
+    gap: 30px;
+
+}
+.right-side p
+{
+    margin-top:78px;
+    color: rgb(146, 145, 145);
+}
+.left-side ul
+{
+    height: 356px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: -100px;
+}
+.left-side ul li
+{
+    list-style: none;
+    height: 20px;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.left-side ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.list2
+{
+  height: 30px;
+}
+.list2 span
+{
+  font-size:55px;
+  font-weight: 200;
 }
