@@ -21,7 +21,7 @@ body
     top:0px;
     left:0px;
     transition:0.09s;
-    /* z-index: 3; */
+    z-index: 3;
 }
 .ball2
 {
@@ -53,7 +53,7 @@ body
     width: 120px;
     justify-content: space-around;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 140px;
     /* border: 1px solid; */
 
 }
@@ -69,8 +69,8 @@ body
     margin-top: 8px;
     padding: 10px;
     position: fixed;
-    top:25px;
-    right: 70px;
+    top:20px;
+    right: 110px;
     /* border: 1px solid; */
 }
 .icon2
@@ -187,6 +187,7 @@ body
     width: 480px;
     border-radius:40px ;
     margin: 200px 0 0 200px;
+    z-index: 6;
 }
 .f2-elem
 {
@@ -229,7 +230,7 @@ body
     right: 0px;
     z-index: 2;
     overflow: hidden;
-    transition: 0.9s;
+    transition: 0.8s;
 }
 .side-bar2
 {
@@ -253,7 +254,7 @@ body
 }
 .side-icon2
 {
-  transform: rotateX('0.5turn');
+  transform:translateX(90deg)
 }
 
 .inner-side
@@ -300,6 +301,7 @@ body
     flex-direction: column;
     align-items: start;
     margin-top: -100px;
+    border: 1px solid;
 }
 .left-side ul li
 {
@@ -323,4 +325,343 @@ body
 {
   font-size:55px;
   font-weight: 200;
+}
+.lik
+{
+    margin-top: -30px;
+    transition: 0.1s;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "matter";
+}
+body
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.ball
+{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    transition:0.09s;
+    z-index: 3;
+}
+.ball2
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:30px;
+    left: 1330;
+}
+.navbar
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2
+{
+    margin-left: 120px;
+}
+
+.menu
+{
+    display: flex;
+    height: 60px;
+    width: 120px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 140px;
+    /* border: 1px solid; */
+
+}
+
+.menu span
+{
+    font-size: 22px;
+    font-family: "matter"
+}
+.icon1
+{
+    font-size:25px;
+    margin-top: 8px;
+    padding: 10px;
+    position: fixed;
+    top:20px;
+    right: 110px;
+    /* border: 1px solid; */
+}
+.icon2
+{
+    color: white;
+    z-index: 3;
+}
+.hero-sec
+{
+    height: 80vh;
+    width: 100%;
+}
+.text
+{
+    display: inline;
+    font-size: 133px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+.first-line
+{
+    margin: 30px 0 0 100px;
+}
+.second-line
+{
+    height: 130px;
+    margin-left: 130px;
+    align-items: center;
+}
+.third-line
+{
+    margin: -20px 0 0 100px;
+}
+.text1
+{
+    font-style: italic;
+    font-weight:lighter;
+}
+.first-video
+{
+    height: 122px;
+    width: 178px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.full-video
+{
+    /* height: 100vh; */
+    width: 100%;
+}
+.mid
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#leftv
+{
+    height: 500px;
+    width: 500px;
+    margin: 150px;
+}
+.right p
+{
+    height: 142px;
+    width: 555px;
+    font-size: 33px;
+    margin-top: 200px;
+}
+
+.btn
+{
+    height: 210px;
+    width: 470px;
+    border: 1px solid;
+    font-size:25px;
+    background-color: white;
+    border-radius:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    transition: 2s;
+}
+.btn2
+{
+    height: 210px;
+    width: 470px;
+    border: 1px solid;
+    font-size:25px;
+    background-color: white;
+    /* border-radius:100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 80px; */
+    transition: 2s;
+    display: none;
+}
+
+.elements-div
+{
+    height:max-content;
+    width: 100%;
+    background-color: black;
+    border-top-right-radius:100px;
+    border-top-left-radius:100px;
+}
+.f1-elem
+{
+    height: 640px;
+    width: 480px;
+    border-radius:40px ;
+    margin: 200px 0 0 200px;
+    z-index: 6;
+}
+.f2-elem
+{
+    height:480px;
+    width: 480px;
+    margin: -200px 0 0 700px;
+    border-radius:40px;
+    object-fit: cover;
+}
+
+.first-p
+{
+    font-size: 28px;
+    /* font-weight: bold; */
+    color: white;
+    margin: 20px 0 0 200px;
+}
+.second-p
+{
+    font-size: 28px;
+    /* font-weight: bold; */
+    color: white;
+    margin: 20px 0 0 700px;
+}
+
+.f3-elem
+{
+    height:640px;
+    width: 480px;
+    border-radius:40px ;
+    margin: 0px 0 0 200px;
+}
+.side-bar
+{
+    height: 100vh;
+    width:0px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.side-bar2
+{
+    width:40%;
+}
+.upper-icon
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+
+.side-icon 
+{
+    font-size: 30px;
+    /* font-weight:200; */
+    margin: 30px;
+    transition: 0.5s;
+}
+.side-icon2
+{
+  transform:translateX(90deg)
+}
+
+.inner-side
+{
+    height:85vh;
+    width: 100%;
+    display: flex;
+}
+.left-side
+{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-side p
+{
+  color: rgb(137, 136, 136);
+}
+
+.right-side
+{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-; */
+    align-items: start;
+    gap: 30px;
+
+}
+.right-side p
+{
+    margin-top:78px;
+    color: rgb(146, 145, 145);
+}
+.left-side ul
+{
+    height: 356px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: -100px;
+    border: 1px solid;
+}
+.left-side ul li
+{
+    list-style: none;
+    height: 20px;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.left-side ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.list2
+{
+  height: 30px;
+}
+.list2 span
+{
+  font-size:55px;
+  font-weight: 200;
+}
+.lik
+{
+    margin-top: -30px;
+    transition: 0.1s;
 }

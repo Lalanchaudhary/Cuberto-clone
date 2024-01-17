@@ -45,29 +45,46 @@ document.addEventListener('mousemove', (e) => {
     }
 
 });
-var index=true;
+let index=0;
 let side=document.querySelector(".side-bar");
-document.addEventListener('DOMContentLoaded', function() {
-    // Your code here
     document.querySelector(".icon1").addEventListener('click', function() {
-        if(index==true)
-        {
        side.classList.add("side-bar2")
-       index=false;
-        }
-        console.log("okay");
+        index++;
     });
-});
-document.addEventListener('DOMContentLoaded', function() {
-    // Your code here
     document.querySelector(".side-icon").addEventListener('click', function() {
-        if(index==false)
-        {
-        side.style.width="0";
-        // document.querySelector(".side-icon").classList.add(".side-icon2");
-        index=true;
-        }
+        // side.style.width="0";
+        side.classList.remove("side-bar2")
+        index++;
     });
-});
+side.addEventListener("mousemove",(e)=>{
+    console.clear();
+    let x=e.pageX;
+    let y=e.pageY;
+    if (y > 170 && y < 480 && x > 1000 && x < 1090) {
+        ball.classList.add("ball2");
+        // icon.classList.add("icon2");
+        ball.style.cssText = "left :" + (e.pageX - 25) + "px; top:" + (e.pageY - 25) + "px;";
+        console.log("okay");
+    }
+    else {
+        console.log("no");
+        ball.classList.remove("ball2");
+        // icon.classList.remove("icon2");
+    }
+    console.log("x="+x);
+    console.log("y="+y);
+})
+    let list=document.querySelector(".list");
+    let links=document.querySelector(".links");
+    list.addEventListener("click",function(){
+        links.style.color="red";
+    list.classList.add("lik")
+    console.log("jaya ji");
+    })
+let film1=document.querySelector(".f1-elem");
+film1.addEventListener("click",function(){
+    console.log("okay");
+    Element.setAttribut("autoplay","");
+})
 
 
