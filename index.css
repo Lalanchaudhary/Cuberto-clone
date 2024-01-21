@@ -251,6 +251,7 @@ body
     /* font-weight:200; */
     margin: 30px;
     transition: 0.5s;
+    mix-blend-mode: difference;
 }
 .side-icon2
 {
@@ -334,511 +335,114 @@ body
 
 
 
-.inn-box
-{
-    height: 370px;
-    width: 370px;
-    border-radius: 50%;
-    background-color:pink;
-    box-shadow: 0px 25px 30px rgb(237, 69, 97);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.inner-box
-{
-    height: 100%;
+.review{
     width: 100%;
-    border-radius: 50%;
-    background-image: url("BeautyPlus_20230324215221152_save.webp");
-    background-size: cover;
-    box-shadow: 0px -25px 30px rgb(243, 79, 107);
-    border: 2px solid white;
-
-}
-.icons
-{
-    display: flex;
-}
-.icon
-{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    border: 2px solid #0ef7f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:20px 10px 0 0;
-}
-.icon a
-{
-    color: #0ef7f8;
-}
-.about
-{
     height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
-.about-right
-{
-    height: 100%;
-    width: 50%;
-}
-.about-left
-{
-    height: 100%;
-    width: 50%;
-}
-.about-right h1
-{
-    font-size: 45px;
-    color: white;
-}
-.about-right p
-{
-    width: 80%;
-    color: white;
-    margin: 50px;
-}
-.about-right h1 span
-{
-    color: #0ef7f8;
-}
-.box-left{
-    height: 280px;
-    width: 280px;
-    margin: 100px;
-}
-.inn-box-left
-{
-    height: 250px;
-    width: 250px; 
-}
-.first-btn
-{
-    padding: 10px;
-    background-color: #0ef7f8;
-    border-radius: 30px;
-    font-weight: bold;
-    border: none;
-    box-shadow: 0 0 10px #0ef7f8 ;
-    margin-left: 50px;
-    /* color: white; */
-}
-.first-btn:hover
-{
-    box-shadow: 0 0 30px #0ef7f8 ;
+    padding: 70px 0;
 }
 
-.third-sec
-{
-    height: 80vh;
-    width: 100%;
+.review h1{
+    font-size: 55px;
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
     align-items: center;
-}
-.third-sec  h1
-{
-    font-size: 45px;
-    color: white;
-    /* margin: auto; */
-}
-.third-sec  h1 span
-{
-    color: #0ef7f8;
-}
-.services
-{
-    height:min-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
-.service
-{
-    height: 250px;
+
+.review h1 span{
+    margin-left: 15px;
+    color: #a20c0b;
+    font-family: mv boli;
+}
+
+.review h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #a20c0b;
+    position: relative;
+    bottom: 15px;
+    display: block;
+}
+
+.review .review_box{
+    width: 95%;
+    margin: 70px auto;
+    display: flex;
+}
+
+.review .review_box .review_card{
     width: 350px;
-    /* border: 1px solid red; */
-    box-shadow: 0 0 15px rgb(34, 34, 136); 
-    border-radius: 10px;
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-}
-.service h2
-{
-  color: rgb(239, 238, 238);
-  margin-left: 20px;
-  font-size: 24px;
-  line-height: 20px;
+    height: 48
+    5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 0 8px;
 }
 
-.service i
-{
-    font-size: 30px;
-    color: #0ef7f8;
-    margin:28px;
-}
-.service p
-{
-    line-height: 16px;
-    /* text-align: center; */
-    color: rgb(234, 233, 233);
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.skills-sec
-{
-  height: 90vh;
-  width: 100%;
-  /* border: 1px solid red; */
-  display: flex;
-  /* justify-content: center; */
-  flex-direction: column;
-  align-items: center;
-}
-.skills-sec  h1
-{
-    font-size: 45px;
-    color: white;
-    margin-bottom: 100px;
-    /* margin: auto; */
-}
-.skills-sec  h1 span
-{
-    color: #0ef7f8;
-}
-.skills
-{
-    height: 90%;
-    width: 100%;
-    /* border: 1px solid blue; */
+.review .review_box .review_card .review_profile{
     display: flex;
-    flex-wrap: wrap;
-}
-.skill
-{
-    height: 100%;
-    width: 50%;
-    /* border: 1px solid green; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-}
-.skill h2
-{ 
-  color: white;
-}
-.total img
-{
-    height: 20x;
-    width: 20px;
-    margin-top: 20px;
-}
-.html
-{
-    width: 300px;
-    display: flex;
-    justify-content:space-between;
-    overflow: hidden;
-}
-.html p
-{
-    color: white;
-    margin-bottom: 5px;
-}
-.ninty
-{
-    height: 20px;
-    width: 25px;
-    background-color: black;
-    border-radius: 5px;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    /* margin-left:-50px; */
-    margin-right:20px;
-}
-.outer
-{
-    height: 3px;
-    width: 300px;
-    background-color: black;
-    /* box-shadow: 0 0 3px rgb(84, 84, 84); */
-    overflow: hidden;
-    border-radius: 5px;
-    /* border-radius: 50%; */
-}
-.skill-left
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    gap: 40px;
-    position: relative;
-}
-.inner
-{
-    height:100%;
-    width: 90%;
-    background-color: #0ef7f8;
-    /* border-radius: 50%; */
-}
-.eighty
-{
-    margin-right:40px;
-}
-.inner2
-{
-    width: 80%;
-}
-.fifty
-{
-    margin-right: 130px;
-}
-.inner3
-{
-    width: 50%;
+    transition: 0.3s;
 }
 
-.soft
-{
-    height: 150px;
-    width: 150px;
-    /* border-radius: 50%; */
-    /* border: 2px solid white; */
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 0 0 4px white;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    justify-content: center;
-    align-items: center;
-    border-bottom:none;
+.review .review_box .review_card:hover .review_profile{
+    transform: translateY(-60px);
 }
-.soft h2
-{
-    height: 90px;
-    width: 90px;
+
+.review .review_box .review_card .review_profile img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 50%;
-    border: 2px solid black;
-      display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.upper
-{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    border: 5px solid #cccccc;
 }
 
-
-
-
-/* ................Project Section................... */
-
-.project
-{
-    height: 70vh;
-    width: 100%;
-}
-
-.project  h1
-{
-    font-size: 45px;
-    color: white;
-    font-family: roboto;
-    text-align: center;
-    font-weight: bolder;
-}
-.project  h1 span
-{
-    color: #0ef7f8;
-}
-.images
-{
-    width: 100%;
-    height:90%;
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-
-.image
-{
-    height: 230px;
-    width: 350px;
-    box-shadow: 0 0 10px #09334b;
-    display: flex;
-    /* align-items: end; */
-}
-.image1
-{
-    background-image: url("webdev.webp");
-    background-size: cover;
-}
-.image2
-{
-    background-image:url("graphic.webp");
-    background-size: cover;
-}
-.image3
-{
-    background-image: url("social.webp");
-    background-size: cover;
-}
-.inner-image
-{
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    /* scale: 0; */
-    transition: 0.2s;
-}
-
-.inner-image:hover
-{
-    /* background-color: rgba(14, 247, 248,0.5); */
-    /* scale: 1; */
-    background: linear-gradient(rgba(101, 207, 248, 0.4),rgba(39, 154, 255, 0.8));
-}
-
-/* ....................Footer................... */
-
-.contact
-{
-    height: 70vh;
-    width: 100%;
-    /* border: 1px solid red; */
-    display: flex;
-    
-}
-
-
-.left
-{
-    height: 100%;
-    width: 50%;
-    /* border: 1px solid blue; */
-}
-.left h2
-{
-    color: white;
+.review .review_box .review_card .review_text{
     text-align: center;
 }
-.left h2 span
-{
-    color: #0ef7f8;
-}
-.left h3
-{
-    color: white;
-    margin:15px 0px;
+
+.review .review_box .review_card .review_text .name{
+    color: #000;
+    transition: 0.3s;
 }
 
-.left p
-{
-    color: white;
-    width: 60%;
+.review .review_box .review_card:hover .review_text .name{
+    transform: translateY(-50px);
 }
 
-.left p i
-{
-    color: #0ef7f8;
-    margin-right: 5px;
-    text-shadow: 0 0 4px #0ef7f8;
-}
-.left-content
-{
-    height: 300px;
-    /* width: 500px; */
-    margin: 70px 50px;
+.review .review_box .review_card .review_text .review_icon{
+    color: #a20c0b;
+    transition: 0.3s;
 }
 
-#lorem
-{
-    margin-bottom: 25px;
-}
-.right
-{
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:end;
-    margin-left:150px;
-}
-.right input
-{
-    padding: 10px;
-    width: 500px;
-    margin-top:10px;
-    border: none;
-    color: black;
-    background-color: rgb(75, 74, 74);
-    border-radius:5px;
-    box-shadow: 0 0 10px rgb(46, 46, 46);
+.review .review_box .review_card:hover .review_text .review_icon{
+    transform: translateY(-30px);
 }
 
-#massage
-{
-    height:150px;
-    text-align: start;
-    width: 520px;
-    background-color: rgb(75, 74, 74);
-    border-radius:5px;
-    box-shadow: 0 0 10px rgb(46, 46, 46);
-    border: none;
-    margin-top: 10px;
+.review .review_box .review_card .review_text .review_social i{
+    margin: 5px 1px;
+    font-size: 15px;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.last-btn
-{
-    padding: 8px;
-    width: 520px;
-    background-color: #0ef7f8;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 20px;
-    border: none;
-    margin-top: 15px;
-    box-shadow: 0 0 10px #0ef7f8;
-}
-.last-btn:hover
-{
-    box-shadow: 0 0 30px #0ef7f8;
+.review .review_box .review_card:hover .review_text .review_social i{
+    opacity: 1;
+    transform: translateY(-8px);
 }
 
-.last
-{
-    height: 40px;
-    width: 100%;
-    background-color: rgb(2, 2, 3);
-    color: white;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.review .review_box .review_card .review_text p{
+    text-align: center;
+    line-height: 22px;
+    transition: 0.3s;
 }
+
+.review .review_box .review_card:hover .review_text p{
+    margin-top: 5px;
+}
+
