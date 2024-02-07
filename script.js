@@ -87,4 +87,31 @@ film1.addEventListener("click",function(){
     Element.setAttribut("autoplay","");
 })
 
+//....................New added in github................
 
+// document.addEventListener('mousemove', (e) => {
+//     // console.clear();
+//     ball.style.cssText = "left :" + (e.pageX - 5) + "px; top:" + (e.pageY - 5) + "px;";
+//     let x = e.clientX;
+//     let y = e.clientY;
+
+//     if (y > 35 && y < 77 && x > 1364 && x < 1402) {
+//         ball.classList.add("ball2");
+//         icon.classList.add("icon2");
+//         ball.style.cssText = "left :" + (e.pageX - 25) + "px; top:" + (e.pageY - 25) + "px;";
+//         // console.log("okay");
+//     }
+//     else {
+//         ball.classList.remove("ball2");
+//         icon.classList.remove("icon2");
+//     }
+//     if (e.pageY > 2140) {
+//         ball.style.backgroundColor = "white";
+//         icon.style.color = "white"
+//         if (y > 35 && y < 77 && x > 1364 && x < 1402) {
+//             icon.style.color="black";
+//         }
+
+//     }
+
+// });
